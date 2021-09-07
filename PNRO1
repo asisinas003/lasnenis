@@ -1,0 +1,35 @@
+<!--Tp1:etiquetas basicas y semanticas -->
+<!--
+crear un documento html contenido al menos las siguientes etiquetas:
+a, b, h1 -h6, o1, img, u1, p, y etiquetas semanticas.
+
+la pagina puede ser de cualquier tematica (sdecuada a la escuela).
+y debe tener una estructura segun vimos-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>💟💟 Esta es mi primera pagina 💟💟</title>
+</head>
+
+<body>
+
+<h1>Aniversario</h1>
+<h3>El Banco Provincia cumplió 199 años y las autoridades lo celebraron</h3>
+
+<p><h2>Se trata de una de las entidades públicas más antiguas del país que se convirtió en el primer banco de Hispanoamérica y en el primero en imprimir un billete argentino.</h2> </p>
+
+<<img src="https://infocronos.com.ar/uploads/noticias/5/2021/09/20210906180315_banco-provincia-998.webp" alt="">
+
+<h2><p>Por el cumpleaños número 199 del Banco de la provincia de Buenos Aires, autoridades y directivos celebraron un nuevo aniversario de una de las entidades públicas más antiguas del país.</p>
+
+<p>El Banco Provincia creó su primera sede el 6 de septiembre de 1822. Así, se convirtió en el primer banco de Hispanoamérica y en el primero en imprimir un billete argentino.</p>
+
+<p>Por su directorio, han pasado figuras ilustres de la historia nacional como Bernardino Rivadavia y Juan Manuel de Rosas, o apellidos tradicionales como Anchorena. Y desde 1941 es que, con marcados vaivenes de acuerdo a los gobiernos provinciales, otorga créditos al sector productivo nacional.</p>
+
+
+</body>
+</html>
