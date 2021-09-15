@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -22,7 +22,7 @@
 
  </section>
 
-<select class=>
+<selection class=>
   <!-- formulario simple que enviara una peticion get-->
   <form action=" menthod="get">
     <label for="get-name">nombre</label>
@@ -55,19 +55,25 @@
      <fora action="action_page.php"method="get"
      <input type="radio"id ="html" name="fav_language" valvue="html"
      <label for="html">html</label><br>
-     <input type="radio" id="css" name="fav_language" valvue="css"
-       <head>
-         <meta charset="utf-8">
-         <title></title>
-       </head>
-       <body>
+     <input type="radio" id="css" name="fav_language" valvue="css" checked="checked">
+     <label for="javascript">javascript</label><br><br>
+     <input type="submit" valvue="submit">
+   </fora>
 
-       </body>
-     </html>" value="">
+<form class="" action="sandriortega@gmal.com" method="post" enctype="text/plain">
+<label for="">sandra:</label>
+<input type="text" name="" value="">
+<input type="color" name="" value="">
+<br>
+<label for="">email:</label>
+<input type="email" name="email" value=""><br>
 
-   </form>
-
+<label for="">su mensaje</label>
+<textarea name="mensaje" rows="5" cols="30"></textarea><br>
+<input type="submit" value="enviar">
     </form>
+
+
 
 
 
