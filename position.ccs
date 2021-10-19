@@ -1,0 +1,21 @@
+.top{
+  display:inline-brock;
+  background-color:tomato;
+  width:100px;
+  height:100px;
+  position:relative;
+  left:200px;
+
+
+}
+.mid{
+  background-color:peru;
+  width:100px;
+  height:100px;
+}
+.bot{
+
+background-color:rebeccapurple;
+width:100px;
+height:100px;
+}
