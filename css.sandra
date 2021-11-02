@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Minions</title>
+</head>
+
+<body>
+  <header>
+    <h2>Minions</h2>
+
+    <h2>Los divertidos personajesde "villano favorito" pasan al frente y protagonizan una divertida historia de aventura</h2>
+
+    <img width="800px" src="https://wallpaperheart.com/wp-content/uploads/2018/04/minions-wallpaper-1.jpg" alt="">
+  </header>
+  <nav>
+    <h2>Navegacion de una pagina web.</h2>
+
+    <ul>
+      <li><a href="">home</a></li>
+      <li><a href="">about</a></li>
+      <li><a href="">contacto</a></li>
+    </ul>
+  </nav>
+  <section class="seccion1">
+    <h1>
+      Existen varios tipos de Minions, a
+        continuacion nombramos a algunos:
+      </font>
+    </h1>
+    <article class="">
+      <ul>
+        <li>kevin </li>
+        <li>Bob</li>
+        <li>Stuart</li>
+      </ul>
+
+    </article>
+    <h1>
+      Que tipos de actividades hacen los minions</font>
+    </h1>
+
+    <ul>
+      <li>Juegan</li>
+      <li>Comen</li>
+      <li>Y ayudan a los villanos con el trabajo </li>
+    </ul>
+    </article>
+  </section>
+
+  <section class="seccion2">
+    <article class="">
+
+    </article>
+    <article class="">
+
+    </article>
+  </section>
+  <aside class="">
+
+
+  </aside>
+  <footer>
+    
+<iframe src="https://tse3.mm.bing.net/th?id=OIP.LzgA1OObrt42HKbADc5o-QHaGz&pid=Api&P=0&w=186&h=171" width="" height=""></iframe>
+  </footer>
+</body>
+
+</html>
