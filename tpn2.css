@@ -2,9 +2,14 @@ h1{
 margin:0;
 padding:0;
 }
-header{
-  background-color:violet;
+body{
+  background-color:;
 }
 .social-items img{
   width:50px;
+}
+.social-links{
+background-color: black
+
+
 }
