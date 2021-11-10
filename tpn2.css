@@ -3,13 +3,17 @@ margin:0;
 padding:0;
 }
 body{
-  background-color:;
+  background-color:
 }
 .social-items img{
   width:50px;
 }
-.social-links{
-background-color: black
+.inner-footer{
 
+background-color: #6cccc6;
 
+}
+
+.quick-links li{
+display:inline-block;
 }
