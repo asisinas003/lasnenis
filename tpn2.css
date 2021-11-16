@@ -16,4 +16,20 @@ background-color: #6cccc6;
 
 .quick-links li{
 display:inline-block;
+border: 10px solid;
+
+}
+
+.nombres{
+background-color:grey;
+height: 90px;
+text-align:center;
+
+}
+.bow{
+text-align:center;
+}
+
+.bow2{
+text-align:center;
 }
