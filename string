@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled11.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM8YS70jdQ+eZ+UW63YqLpw",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/asisinas003/lasnenis/blob/main/string\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dDXw-XV3ZQzC",
+        "outputId": "85b14b6e-8f8d-4ee2-b279-60f84e810bdb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "este es el string original: la verdadera democracia es aquella donde el gobierno hace lo que el publo quiere y defiende un solo interes: el del pueblo\n",
+            "introduce la palabra que quieras eliminar del string original:\n"
+          ]
+        }
+      ],
+      "source": [
+        "string = \"la verdadera democracia es aquella donde el gobierno hace lo que el publo quiere y defiende un solo interes: el del pueblo\"\n",
+        "print (\"este es el string original:\" ,string)\n",
+        "\n",
+        "print(\"introduce la palabra que quieras eliminar del string original:\")\n",
+        "word= input(\"palabra: \")\n",
+        "\n",
+        "idx = string.find(word)\n",
+        "substring = string[:idx] + string[(idx+ len(word)+1)]\n",
+        "print(substring)"
+      ]
+    }
+  ]
+}
