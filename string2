@@ -1,0 +1,129 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled9.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyO5Xxc5Emnwyqzn21Idp/ZF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/asisinas003/lasnenis/blob/main/string2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "oFEnHUUa4ahC"
+      },
+      "outputs": [],
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Ejercicio\n",
+        "Dado un string. vamos a pedir al usuario que indroduzca una palabra perteneciente a dicho string y vamos a obtener el substring sin la palabra indicada por el usuario utilizando el metodo . find() y la funcion len()"
+      ],
+      "metadata": {
+        "id": "Nqg7R3k25N3w"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "string = \"la verdadera democracia es aquella donde el gobierno quiere y defiende un solo interes: el del pueblo\"\n",
+        "print(\"este es el string original:\")\n",
+        "print(string)\n",
+        "\n",
+        "print(\"indroduce la palabra que quieras eliminar del string original:\")\n",
+        "word = input(\"palabra\")\n",
+        "inx = string.find(word)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kg4NgI1l6KSu",
+        "outputId": "c49a52fb-b76e-4c55-8c79-a627622cacb4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "este es el string original:\n",
+            "la verdadera democracia es aquella donde el gobierno quiere y defiende un solo interes: el del pueblo\n",
+            "indroduce la palabra que quieras eliminar del string original:\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s1 = \"Ricardo dijo: \"me gusta la playa\"\" \n",
+        "s2 "
+      ],
+      "metadata": {
+        "id": "m9UEckFlCyRs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "OsCdMqVAE0UB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "S1 = \"Bienvenido \"\n",
+        "s2 = \"al curso.\"\n",
+        "s1+s2"
+      ],
+      "metadata": {
+        "id": "VsNigmCXFbNV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s1 = \"hemos llegando ya\"\n",
+        "7 * s1"
+      ],
+      "metadata": {
+        "id": "NH4qcLcWGgal"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
