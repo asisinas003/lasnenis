@@ -1,0 +1,118 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled18.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPNI9uIpLnCJr8qTaD1rD4H",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/asisinas003/lasnenis/blob/main/tpn3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "XCUmKyclS4--"
+      },
+      "outputs": [],
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Ejercicio 1\n",
+        "Haz que un usuario indroduzca un numero  real y evalua si dicho numero es positivo, negativo o cero. Devuelve ṕor pantalla el resultado en cada caso "
+      ],
+      "metadata": {
+        "id": "_0TZnHYcTFvR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "1 = float(print(\"ingrese un numero \"))\n",
+        "if:\n",
+        "  print(\"El numero ingresado es positivo\")\n",
+        "else:\n",
+        "  print(\"El numero ingresado es negativo\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 132
+        },
+        "id": "ItLDsPYlUbmu",
+        "outputId": "a2e5a53b-1a10-49c2-e09d-95c05ba4d8bf"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-10-69064dc4c961>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    if:\u001b[0m\n\u001b[0m      ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Ejercicio 2\n",
+        "Haz que un usuario que indroduzca su nombre y evalua con operadores if y else si dicho nombre tiene una longitud mayor a 10 caracteres o no. devuelve por pantalla el resultadoen cada caso"
+      ],
+      "metadata": {
+        "id": "vsNKUwD7fCY_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Nombre = input(\"ingrese su nombre\")\n",
+        "if (nombre >=10)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 132
+        },
+        "id": "thMVan4NipcA",
+        "outputId": "2efcc111-e87c-4b2a-af1e-3a42fcdf6382"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-11-acb7ca451dea>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    if (nombre >=10)\u001b[0m\n\u001b[0m                    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
