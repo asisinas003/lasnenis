@@ -1,0 +1,242 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyP7srROWM5BoYHXTJNFD9fT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/asisinas003/lasnenis/blob/main/TPN3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "pLkijV0cbL-m"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Ejercicio 1\n",
+        "Haz que un usuario indroduzca un numero real y evalua si dicho numero es positivo, negativo o cero. Devuelve por la pantalla el resultadoen cada caso."
+      ],
+      "metadata": {
+        "id": "Y_QMwDhFbSxG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input(\"ingrese un numero real: \"))\n",
+        "if: (numero < 0)\n",
+        "  print(\"El numero ingresado es positivo\")\n",
+        "elif:(numero == 0)\n",
+        "  print(\"El numero ingresado es negativo\")\n",
+        "else:\n",
+        "  print(\"El numero ingresado es 0\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 133
+        },
+        "id": "HTsQLHDgQH5V",
+        "outputId": "05fef999-38e1-407f-da53-ad06ba52ccbb"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-17-ddbf78f1dac1>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    if: (numero < 0)\u001b[0m\n\u001b[0m      ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "-0ZHEZ62lFAn"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Ejercicio 2\n",
+        "Haz que un usuario indroduzca su nombre y evalua con operadores if y else si dicho nombre tiene una longitud mayor a 10 caracteres o no. Devuelve por la pantalla el resultado en cada caso."
+      ],
+      "metadata": {
+        "id": "mRwmyqtscZPK"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "yFN1k_6jbKGO"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nombre = input(\"¿cual es tu nombre?\")\n",
+        "if (len(nombre)>10):\n",
+        "  print(\"su nombre tiene una longitud de 10 caracteres\")\n",
+        "else:\n",
+        "  print(\"su nombre no tiene una longitu de 10 caracteres\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4vtTMwv5dUB9",
+        "outputId": "7c90c921-48da-4641-d161-c7757bff1e7d"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "¿cual es tu nombre?sandra\n",
+            "su nombre no tiene una longitu de 10 caracteres\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Ejercicio 3\n",
+        "Realiza el ejercicio anterior con el uso del operador ternario."
+      ],
+      "metadata": {
+        "id": "86SB225XlGjL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nombre = 10\n",
+        "texto_m =(\"su nombre tiene una longitud de 10 caracteres \")\n",
+        "texto_me =(\"su nombre no tiene una longitud de 10 caracteres\")\n",
+        "print(texto_m) if age <= 10 else print(texto_m)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FDUDxFDqlyTL",
+        "outputId": "738b9ba2-5fa5-460f-e11a-fd94532c8087"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "su nombre tiene una longitud de 10 caracteres \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Ejercicios 4\n",
+        "Haz que un usuario indroduzca dos numeros positivos. comprueba si el primer numero introducido por el usuario es mayor o igual que el segundo numero introducidopor el usuario. Devuelve por pantalla el resultado en cada caso.\n",
+        "PISTA: Asegurate de hacer uso de la funcion int() donde pertoque.\n"
+      ],
+      "metadata": {
+        "id": "XskMOIK5x9rG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "6fIjQ46P0Spo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Ejercicio 5\n"
+      ],
+      "metadata": {
+        "id": "3zaFH-rFMMw5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "w1N1dgetNQuK"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"Dime un numero en positivo: \"))\n",
+        "if num - 3 == 0 and num - 5 == 0:\n",
+        "  print(\"es multiplo de 3 y de 5\")\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hxQInL8pNRS9",
+        "outputId": "4a9c3ffa-4506-4e00-c53e-fe0a32b9f400"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Dime un numero en positivo: 12\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
